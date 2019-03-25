@@ -1,0 +1,4 @@
+*.exe
+packages/
+VLCdemo/bin/
+VLCdemo/obj/

@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.vlcControl1 = new Vlc.DotNet.Forms.VlcControl();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.vlcControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,13 +46,6 @@
             this.vlcControl1.VlcLibDirectory = null;
             this.vlcControl1.VlcMediaplayerOptions = null;
             this.vlcControl1.VlcLibDirectoryNeeded += new System.EventHandler<Vlc.DotNet.Forms.VlcLibDirectoryNeededEventArgs>(this.vlcControl1_VlcLibDirectoryNeeded);
-            this.vlcControl1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.vlcControl1_MouseDown);
-            this.vlcControl1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.vlcControl1_MouseMove);
-            this.vlcControl1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.vlcControl1_MouseUp);
-            // 
-            // timer1
-            // 
-            this.timer1.Interval = 10000;
             // 
             // Form1
             // 
@@ -75,7 +66,6 @@
         #endregion
 
         private Vlc.DotNet.Forms.VlcControl vlcControl1;
-        private System.Windows.Forms.Timer timer1;
     }
 }
 
